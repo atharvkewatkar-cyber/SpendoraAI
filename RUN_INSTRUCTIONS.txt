@@ -1,0 +1,17 @@
+SPENDORA_AI - INDIAN RUPEES ONLY
+
+1. Keep MongoDB running.
+2. Double-click RUN_SPENDORA_AI.bat.
+3. Open http://localhost:5173
+
+The UI is configured to display Indian Rupees (₹) only. USD/EUR/GBP display options have been removed.
+
+Manual backend:
+  cd backend
+  venv\Scripts\activate
+  python -m uvicorn main:app --reload
+
+Manual frontend (new terminal):
+  cd frontend
+  npm install
+  npm run dev
